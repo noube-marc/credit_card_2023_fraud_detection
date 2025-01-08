@@ -1,1 +1,0 @@
-lien du jeu de données kaggle: https://www.kaggle.com/datasets/nelgiriyewithana/credit-card-fraud-detection-dataset-2023/data

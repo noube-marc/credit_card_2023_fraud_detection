@@ -6,7 +6,6 @@ import seaborn as sns
 from sklearn.preprocessing import RobustScaler
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import StratifiedKFold
-from sklearn.metrics import accuracy_score, recall_score, precision_score, f1_score
 from sklearn.ensemble import RandomForestClassifier
 from sklearn import metrics
 
@@ -14,7 +13,7 @@ from sklearn import metrics
 st.title("Graphiques")
 
 #Source du fichier
-source_path="C:/Users/NOUBE Marc/Downloads/Projets perso/Data Science Projects/credit_card_2023_fraud_detection/source bank/"
+source_path="source bank/"
 
 #Importation du ficher creditcard_2023.csv
 dfCreditCard=pd.read_csv(f"{source_path}creditcard_2023.csv")
