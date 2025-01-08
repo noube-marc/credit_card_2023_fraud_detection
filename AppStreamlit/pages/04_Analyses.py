@@ -9,7 +9,7 @@ from sklearn.ensemble import RandomForestClassifier
 st.title("Analyses")
 
 #Source du fichier
-source_path="source bank/"
+source_path="sources/"
 
 #Importation du ficher creditcard_2023.csv
 dfCreditCard=pd.read_csv(f"{source_path}creditcard_2023.csv")
